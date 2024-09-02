@@ -4,14 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        body 
+        {
+         background-color: darkorange;
+         text-align: center;   
+        }
+        nav
+        {
+            background-color: aqua;
+            padding: 15px;
+
+        }
+        ul
+        {
+            margin:0;
+            padding:0;
+            overflow: hidden;
+        }
+        li
+        {
+            float:center;
+
+        }
+        li a
+        {
+            text-align: center;
+            padding: 15px 15px;
+            font-size:50px ;
+        }
+        li a:hover
+        {
+            background-color:royalblue;
+            color: crimson;
+        }
+    </style>
 </head>
 <body>
-    something
-    hello
-    hi
+    <nav>
+        <ul>
+            <li><a href="index.html">home</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    <h1>interesting information</h1>
+    <img src="download.jpg">
+    <br>
+    <button onclick="tiger()">
+        read more
+    </button>
+<p id="tiger-info">
 
-    
-    <BR>
-    hello
+</p>
+
+<script> 
+    function tiger()
+    {
+        document.getElementById("tiger-info").innerHTML="The tiger is a member of the genus Panthera and the largest living cat species native to Asia. It has a powerful, muscular body with a large head and paws, a long tail and orange fur with black, mostly vertical stripes.";
+    }
+</script>
+   
+
 </body>
 </html>
