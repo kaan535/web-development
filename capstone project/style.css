@@ -28,3 +28,25 @@ text-transform:uppercase;
 letter-spacing:10px;
 
 }
+.footer
+{
+text-transform: uppercase;
+font-weight: bold;
+background-color: burlywood;
+width:100%;
+text-align: center;
+color: brown;
+}
+.about_us
+{
+  font-size:20px;  
+  background-color:skyblue;
+  color:green;
+}
+.reviews
+{
+    font: size 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: aquamarine;
+    padding: 10px;;
+}
