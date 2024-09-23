@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-image:linear-gradient(yellow,orange);
+            font-size:x-large;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: aqua;
+
+        }
+
+        .topnav a {
+            text-align: center;
+            float: left;
+            color: darkmagenta;
+            padding: 14px 16px;
+            font-size: 18px;
+        }
+
+        .topnav a:hover {
+            background-color: darkblue;
+            color: black;
+            font-size: 25;
+        }
+
+        .topnav a.active {
+            background-color: rgb(21, 8, 120);
+            color: black;
+        }
+
+        h1 {
+            color: aliceblue;
+            background-color: aqua;
+            text-align: center;
+            font-size: 50px;
+            font-family: cursive;
+        }
+
+        img {
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+
+
+</head>
+
+<body>
+    <div class="topnav">
+        <a class="active" href="index.html">home</a>
+        <a href="about.html">About us </a>
+        <a href="gallery.html">Gallery </a>
+        <a href="">Contact us </a>
+    </div>
+    <h1>
+        Kindly fill in the details.
+    </h1>
+    <form>
+        <fieldset>
+            <legend>
+               <h1> contact us</h1>
+            </legend>
+            <label>
+                full name:
+            </label>
+            <input type="text"><br>
+            <label>
+                email:
+            </label>
+            <input type="email"><br>
+            <label>
+                subject:
+            </label>
+            <input type="text"><br>
+            <label></label>
+            message:
+            </label>
+            <input type="text"><br>
+            <label></label>
+            (optional) phone number:
+            </label>
+            <input type="password"><br>
+            <label></label>
+            gender:
+            </label>
+            <input type="radio" name="gender">male <input type="radio" name="gender">female<br>
+            <label>
+                country:
+            </label>
+            <input type="checkbox">canada <input type="checkbox">turkey <input type="checkbox"> UAE <input type="checkbox"> united kingdom <input type="checkbox"> america <input type="checkbox">india <br>
+            <label>
+                date of birth:
+            </label>
+            <input type="date"><br>
+            <label>
+                im not a robot
+            </label>
+
+            <input type="checkbox"><br>
+            <input type="submit">
+        </fieldset>
+        
+    </form>
+</body>
+
+</html>
